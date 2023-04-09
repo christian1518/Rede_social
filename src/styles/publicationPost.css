@@ -1,0 +1,54 @@
+.publication__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+input {
+    border: 0.125rem solid var(--color-grey4);
+    width: 24.5rem;
+    height: 3.25rem;
+    border-radius: var(--border-radius);
+}
+
+input:focus {
+    border: 0.125rem solid var(--color-brand-1);
+}
+
+input, textarea::placeholder {
+    padding: 0.625rem;
+    font-size: 1rem;
+    font-family: var(--font-primary);
+    
+}
+
+textarea {
+    border: 0.125rem solid var(--color-grey4);
+    height: 8.125rem;
+    width: 24rem;
+    resize: none;
+    border-radius: var(--border-radius);
+    outline: none;
+}
+
+textarea:focus {
+    border: 0.125rem solid var(--color-brand-1);
+}
+
+.button__publication {
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+    width: 4.375rem;
+    height: 2.375rem;
+    border-radius: var(--border-radius);
+    color: var(--color-grey3);
+    background-color: var(--color-grey4);
+    margin-left: 20rem;
+}
+
+.button__publication:hover {
+    background-color: var(--color-brand-2);
+    color: var(--color-white-fixed);
+    transition: 1s;
+}

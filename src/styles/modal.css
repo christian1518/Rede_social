@@ -1,0 +1,38 @@
+.modal-item__controller {
+    width: 40rem;
+    max-width: 80%;
+    height: 34rem;
+    max-height: 50%;
+    position: relative;
+    position: fixed;
+    top: 2rem;
+    padding-top: 3.5rem;
+    border-radius: var(--border-radius);
+    border: none;
+}
+
+.modal-item__controller::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button__close {
+    background-color: var(--color-grey5);
+    color: var(--color-grey3);
+    font-family: var(--font-secondary);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+}
+
+.button__close:hover {
+    background-color: var(--color-grey4);
+    transition: 1s;
+}
+
+.modal-item__controller .items__button {
+    display: none;
+}
+

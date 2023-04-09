@@ -1,0 +1,51 @@
+.container__posts {
+    padding-top: 4rem;
+    padding-right: 4rem;
+    
+}
+
+.posts__list {
+padding-top: 2rem;
+}
+
+.items__text {
+    color: var(--color-grey2);
+}
+
+.items__title {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.items__button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+}
+
+.button__post {
+    width: 5.75rem;
+    height: 2.375rem;
+    border-radius: var(--border-radius);
+    background-color: var(--color-grey1);
+    color: var(--color-white-fixed);
+    margin-right: 2rem;
+    
+}
+
+.button__post:hover {
+    background-color: var(--color-grey0);
+    transition: 1s;
+}
+
+.heart__like {
+    width: 1.375rem;
+    height: 1.25rem;
+}
+
+.heart__like:hover {
+    color: var(--color-grey-opacity-1);
+}

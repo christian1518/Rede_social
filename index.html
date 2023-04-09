@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,9 +15,109 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
-    />
+      />
 
     <title>Criando rede social</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header__container">
+      <img class="container__logo" src="./src/assets/img/logo.svg" alt="Logo">
+      <button class="container__button" type="button">Sair</button>
+    </header>
+
+    <main class="main__container">
+      <div class="manipulation__to-desktop">
+        <section class="container__publication">
+          <form class="publication__form">
+            <div class="profile__box">
+              <img class="box__image" src="src/assets/img/user1.svg" alt="Profile Picture">
+              <div class="box__profile">
+                <h3 class="profile__title">Samuel Leão</h3>
+                <p class="profile__text">Front End and Engineer</p>
+              </div>
+            </div>
+            <input class="form__title" type="text" placeholder="Digitar título do post" required>
+            <textarea class="form__description" placeholder="Digitar descrição do post" required></textarea>
+            <button class="button__publication" type="submit">Postar</button>
+          </form>
+        </section>  
+        <section class="section__aside">
+          <h3 class="suggestion__title">Sugestões para você seguir</h3>
+          <aside class="aside__suggestion">
+            <article class="article__users">
+              <div class="profile__box">
+                <div class="box__profile">
+                  <img class="box__image" src="src/assets/img/user3.svg" alt="Profile Picture">
+                  <div> 
+                    <h3 class="profile__title">Carlos Lima</h3>
+                    <p class="profile__text">UX e UI Desginer</p>
+                  </div> 
+                </div>
+                <div class="users__button">
+                  <button class="button__follow">Seguir</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="article__users">
+              <div class="profile__box">
+                <div class="box__profile">
+                  <img class="box__image" src="src/assets/img/user6.svg" alt="Profile Picture">
+                  <div>
+                    <h3 class="profile__title">Larissa Camargo</h3>
+                    <p class="profile__text">UI Developer</p>
+                  </div>  
+                </div>
+                <div class="users__button">
+                  <button class="button__follow">Seguir</button>
+                </div>  
+              </div>
+            </article>
+
+            <article class="article__users">
+              <div class="profile__box">
+                <div class="box__profile">
+                  <img class="box__image" src="src/assets/img/user7.svg" alt="Profile Picture">
+                  <div>  
+                    <h3 class="profile__title">Filipe Gutierry</h3>
+                    <p class="profile__text">Full Stack Developer</p>
+                  </div>
+                </div>
+                <div class="users__button">
+                  <button class="button__follow">Seguir</button>
+                </div> 
+              </div>
+            </article>
+          </aside>
+        </section>
+      </div>  
+      <section class="container__posts">
+        <h1 class="posts__title">
+          Posts
+        </h1>       
+        <ul class="posts__list">
+          <li class="list__items">
+            <div class="div__items">
+              <img class="box__image">
+              <div class="box__profile">
+                <h3 class="profile__title"></h3>
+                <p class="profile__texte"></p>
+              </div>
+            </div>
+            <h2 class="items__title"></h2>
+            <p class="items__text"></p>
+            <div class="items__button">
+              <button class="button__post">Abrir post</button>       
+              <span class="box__like"></span>
+            </div>
+          </li>
+        </ul>      
+      </section>
+    </main>
+      
+    <dialog class="modal-item__controller"> 
+    </dialog>
+    
+  </body>
+  <script type="module" src="./src/scripts/index.js"></script>
 </html>

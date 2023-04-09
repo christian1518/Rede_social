@@ -1,0 +1,39 @@
+/* Aba de publicação */
+@media (min-width: 48rem) {
+    .form__title {
+        width: 40.5rem;
+    }
+
+    .form__description {
+        width: 40rem;
+    }
+
+    .button__publication {
+        margin-left: 36rem;
+    }
+
+
+}
+
+/* Aba main */
+@media (min-width: 48rem) {
+    .main__container {
+        padding: 9.375rem 6rem;
+        width: 60rem;
+    } 
+}
+
+/* Aba posts */
+@media (min-width: 48rem) {
+    .posts__list {
+        width: 40rem;
+    }
+}
+
+/* Aba modal */
+@media (min-width: 48rem) {
+    .modal-item__controller {
+        max-width: 70%;
+        max-height: 50%;
+    }
+}
